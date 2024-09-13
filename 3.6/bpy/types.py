@@ -23053,7 +23053,7 @@ class Operator(bpy_struct):
         '''
         pass
 
-    def execute(self, context: 'Context'
+    def execute(self, context
                 ) -> typing.Union[typing.Set[str], typing.Set[int]]:
         ''' Execute the operator
 
@@ -23710,7 +23710,7 @@ class Panel(bpy_struct):
         '''
         pass
 
-    def draw(self, context: 'Context'):
+    def draw(self, context):
         ''' Draw UI elements into the panel UI layout
 
         :param context: 

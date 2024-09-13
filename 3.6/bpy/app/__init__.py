@@ -164,7 +164,7 @@ debug_wm = None
 ''' Boolean, for debug info (started with --debug / --debug_* matching this attribute name)
 '''
 
-driver_namespace = None
+driver_namespace = dict()
 ''' Dictionary for drivers namespace, editable in-place, reset on file load (read-only)
 '''
 

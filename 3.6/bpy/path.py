@@ -3,7 +3,7 @@ import typing
 import bpy.types
 
 GenericType = typing.TypeVar("GenericType")
-
+extensions_image = ()
 
 def abspath(path,
             *,
