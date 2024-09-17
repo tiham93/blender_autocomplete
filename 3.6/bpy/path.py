@@ -4,6 +4,7 @@ import bpy.types
 
 GenericType = typing.TypeVar("GenericType")
 extensions_image = ()
+extensions_movie = ()
 
 def abspath(path,
             *,
